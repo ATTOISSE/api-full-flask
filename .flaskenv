@@ -1,4 +1,4 @@
 FLASK_DEBUG=True
-FLASK_ENV=Development # type: ignore
+FLASK_ENV=Production # type: ignore
 FLASK_APP=run.py # type: ignore
-SQLALCHEMY_DATABASE_URI=postgresql://postgres:pgsql%4033@localhost:5432/API_FLASK # type: ignore
+SQLALCHEMY_DATABASE_URI=postgresql://api_full_user:SsRzf8WjXTmyff2a2EPSQ8e7THnrctFf@dpg-cs5u5i2j1k6c739u9t70-a/api_full # type: ignore
