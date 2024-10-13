@@ -5,7 +5,7 @@
         "description": "Cette API permet de gérer les utilisateurs et les éléments dans une application.",
         "version": "1.0.0"
     },
-    "host": "localhost:5000",
+    "host": "api-plateform.onrender.com",
     "schemes": [
         "https"
     ],

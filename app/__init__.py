@@ -21,7 +21,7 @@ def create_app():
     db.init_app(app)
     Migrate(app, db)
     
-    CORS(app)
+    CORS(app, resources={r"/*": {"origins": "*"}})
     
     jwt.init_app(app)
     
